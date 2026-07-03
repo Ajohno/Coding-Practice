@@ -9,7 +9,6 @@ def twoSum(nums, target):
 
         # Check if the complement is already in the seen dictionary
         if complement in seen:
-            print(f"Found a pair: {num} + {complement} = {target}")
             return [seen[complement], i]
 
         # If not, add the current number and its index to the seen dictionary
