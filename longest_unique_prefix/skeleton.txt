@@ -1,0 +1,25 @@
+Variables I need:
+
+- List for keeping track of the characters I have seen -> seen
+
+- Length of the unique prefix -> prefix_length
+
+Loop:
+
+- I would use a for loop. This will allow me to iterate through the string character by character.
+
+What happens inside the loop:
+
+- For each character in the string, I will check if the current character was saved in the list of seen characters.
+
+- If the character was seen, the current length of the longest prefix will be returned as the answer.
+
+- If the character was not seen yet, the value of prefix_length will be incremented by 1, the current character will be added to the seen list and the loop will go to the next character.
+
+What happens after the loop:
+
+- If the loop reaches the end of the string and there are no repeated characters in the string then the length of the string will be returned as the answer.
+
+Return:
+
+prefix_length
