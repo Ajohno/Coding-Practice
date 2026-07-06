@@ -1,0 +1,33 @@
+Variables I need:
+
+- Indexes to track the position in the two sorted arrays -> i & j.
+
+- An array for the result of merging the two arrays -> merged_array.
+
+Loop:
+
+- A while loop, so that it can keep track of the indexes for each array and increment them separately. 
+
+- The while loop allows you to continue the comparison while both indexes are still inside their arrays.
+
+What happens inside the loop:
+
+- The number at the current index of the first array is compared to the number of the current index of the second array.
+
+- Whichever number is smaller gets added to the merged_array.
+
+- If the number is from nums1 increment i.
+
+- If the number is from nums2 increment j.
+
+What happens after the loop:
+
+- After the main loop is finished that means at least one of the arrays are empty.
+
+- After that, there may be one of them that has leftover numbers. 
+
+- Attach these to the end of the merged_array.
+
+Return:
+
+- Return the merged_array.
