@@ -1,0 +1,9 @@
+Variables I need:
+
+Loop:
+
+What happens inside the loop:
+
+What happens after the loop:
+
+Return:
